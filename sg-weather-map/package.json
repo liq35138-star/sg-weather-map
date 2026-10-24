@@ -1,0 +1,11 @@
+{
+  "name": "sg-weather-hourly-collector",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "record": "node scripts/record-temperature.mjs"
+  },
+  "dependencies": {
+    "@turf/point-on-feature": "7.2.0"
+  }
+}
